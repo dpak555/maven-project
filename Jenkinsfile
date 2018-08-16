@@ -1,7 +1,7 @@
 pipeline {
      agent any
      tools { 
-        Maven_home 'Maven 3.5.4' 
+        Maven_home '/usr/local/Cellar/maven/3.5.4/libexec' 
      }
      stages {
         stage('Build'){
